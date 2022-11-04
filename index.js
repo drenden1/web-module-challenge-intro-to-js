@@ -15,8 +15,11 @@ Task 1a - Voting Age (not auto tested)
 
 Do the following:   
    1. Create a variable called votingAge and assign it a number value
+   var votingAge = 18;
    2. Console log true if age is 18 or higher
-
+   if(votingAge <= 18) {
+    console.log("This person can vote, true.");
+   }
    HINT: no function required
 */
 
@@ -27,9 +30,17 @@ Task 1b - Values (not auto tested)
 
 Do the following:   
    1. Declare two variables and assign them values (good names for these might be firstThing and secondThing)
+   var firstThing = 3;
+   var secondThing = 5;
    2. Use a conditional to check the value of the 1st variable versus the value assigned to the 2nd variable
+   if(firstThing < secondThing) {
+    console.log("firstThing is greater than secondThing");
+   } else {
+    console.log("firstThing is less than secondThing");
+   }
    3. Change the value of the 1st variable if the conditional in step 2 is true
    4. Console log the value of the 1st variable
+   console.log(firstThing);
 
    HINT: no function required
 */
