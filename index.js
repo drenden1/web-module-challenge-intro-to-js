@@ -70,7 +70,16 @@ Do the following:
    1. Invoke the multiply function below and pass it two numbers
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
+   
 */
+let firstNumber = 6;
+   let secondNumber = 4;
+   console.log(firstNumber * secondNumber;)
+
+   const multiply = function(a,b) {
+    console.log(a * b);
+  }
+   multiply(6,4);
 
 function multiply(num1, num2){
   return num1 * num2;
@@ -88,10 +97,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+let age = 6;
+function dogYears(){
+  console.log(age * 7);
 }
-
+dogYears();
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
