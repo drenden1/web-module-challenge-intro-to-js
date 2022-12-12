@@ -15,29 +15,25 @@ Task 1a - Voting Age (not auto tested)
 
 Do the following:   
    1. Create a variable called votingAge and assign it a number value
-   var votingAge = 18;
+   
    2. Console log true if age is 18 or higher
-   if(votingAge <= 18) {
-    console.log("This person can vote, true.");
-   }
+   
    HINT: no function required
 */
 
+var votingAge = 18;
 
-
+if(votingAge <= 18) {
+    console.log("This person can vote, true.");
+   }
 /*
 Task 1b - Values (not auto tested)
 
 Do the following:   
    1. Declare two variables and assign them values (good names for these might be firstThing and secondThing)
-   var firstThing = 3;
-   var secondThing = 5;
+   
    2. Use a conditional to check the value of the 1st variable versus the value assigned to the 2nd variable
-   if(firstThing < secondThing) {
-    console.log("firstThing is greater than secondThing");
-   } else {
-    console.log("firstThing is less than secondThing");
-   }
+   
    3. Change the value of the 1st variable if the conditional in step 2 is true
    4. Console log the value of the 1st variable
    console.log(firstThing);
@@ -45,9 +41,14 @@ Do the following:
    HINT: no function required
 */
 
+var firstThing = 3;
+   var secondThing = 5;
 
-
-
+if(firstThing < secondThing) {
+    console.log("firstThing is greater than secondThing");
+   } else {
+    console.log("firstThing is less than secondThing");
+   }
 
 /*
 Task 1c - Convert Strings to Numbers (not auto tested)
@@ -74,16 +75,12 @@ Do the following:
 */
 let firstNumber = 6;
    let secondNumber = 4;
-   console.log(firstNumber * secondNumber;)
-
+   
    const multiply = function(a,b) {
     console.log(a * b);
   }
    multiply(6,4);
 
-function multiply(num1, num2){
-  return num1 * num2;
-}
 
 
 
@@ -98,10 +95,10 @@ Do the following:
 */
 
 let age = 6;
-function dogYears(){
+function dogYears(age){
   console.log(age * 7);
-}
-dogYears();
+};
+dogYears(6);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
