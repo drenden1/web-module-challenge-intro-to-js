@@ -61,7 +61,7 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+Number(string is now number("1999"));
 
 
 /*
